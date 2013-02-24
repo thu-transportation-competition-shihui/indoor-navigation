@@ -1,0 +1,6 @@
+证书信息：
+thushihui.crt主密码：thucecmthu
+使用方法：
+配置好jdk的环境变量后，在命令行下使用
+keytool -importcert -file thushihui.crt
+来导入证书，之后配置ant即可自动签名

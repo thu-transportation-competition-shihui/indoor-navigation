@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:7
+-keep class com.thu.tdnav.MainActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:70
+-keepclassmembers class * { *** inputby2d(...); }
+
+# onClick res/layout/main.xml #generated:106
+-keepclassmembers class * { *** inputbyvoice_end(...); }
+
+# onClick res/layout/main.xml #generated:78
+-keepclassmembers class * { *** inputbyvoice_start(...); }
+
+# onClick res/layout/main.xml #generated:120
+-keepclassmembers class * { *** menuonclick(...); }
+
+# onClick res/layout/main.xml #generated:128
+-keepclassmembers class * { *** searchonclick(...); }
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">室内导航</string>
+	<string name="start_str">请选择您的所在地</string>
+	<string name="end_str">请输入您的目的地（可通过语音）</string>
+	<string name="choose_str">选择交通枢纽</string>
+	<string name="button_findby2d_text">扫描二维码</string>
+	<string name="button_findbyvoice_text">语音查询</string>
+	<string name="button_search_text">搜索</string>
+	<string name="button_menu_text">菜单</string>
+</resources>
