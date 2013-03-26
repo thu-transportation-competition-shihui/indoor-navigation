@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_lookforplace"
+		  adnroid:title="@string/lookforplace"
+		  android:icon="@drawable-ldpi/searching_0"
+		  android:onClick="onmenusearchingclick"/>
+	<item android:id="@+id/menu_showmap"
+		  android:title="@string/showmap"
+		  android:icon="@drawable-ldpi/map_0"
+		  android:onClick="onmenushowmapclick">
+	<item android:id="@+id/menu_information"
+		  android:title="@string/information"
+		  android:icon="@drawable-ldpi/information_0"
+		  android:onClick="onmenuinformationclick"/>
+	<item android:id="@+id/menu_setting"
+		  android:title="@string/setting"
+		  android:icon="@drawable/setting_0"
+		  android:onClick="onmenusettingclick"/>
+	<item android:id="@+id/menu_about"
+		  android:title="@string/about"
+		  android:icon="@drawable-ldpi/contraction_0"
+		  android:onClick="onmenuaboutclick"/>
+	<item android:id="@+id/menu_exit"
+		  android:title="@string/quit"
+		  android:icon="@drawable-ldpi/exit_0"
+		  android:onClick="onmenuquitclick"/>
