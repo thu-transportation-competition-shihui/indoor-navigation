@@ -50,7 +50,6 @@ public final class R {
     public static final class string {
         public static final int about=0x7f04000d;
         public static final int app_name=0x7f040000;
-        public static final int button_back_text=0x7f04000f;
         public static final int button_findby2d_text=0x7f040004;
         public static final int button_findbyvoice_text=0x7f040005;
         public static final int button_menu_text=0x7f040007;

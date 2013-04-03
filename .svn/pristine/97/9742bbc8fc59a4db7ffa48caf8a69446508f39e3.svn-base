@@ -1,0 +1,28 @@
+# view AndroidManifest.xml #generated:7
+-keep class com.thu.tdnav.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.thu.tdnav.SearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:6
+-keep class com.thu.tdnav.tdnav { <init>(...); }
+
+# onClick res/layout/search.xml #generated:21
+-keepclassmembers class * { *** backonclick(...); }
+
+# onClick res/layout/main.xml #generated:70
+-keepclassmembers class * { *** inputby2d(...); }
+
+# onClick res/layout/main.xml #generated:106
+-keepclassmembers class * { *** inputbyvoice_end(...); }
+
+# onClick res/layout/main.xml #generated:78
+-keepclassmembers class * { *** inputbyvoice_start(...); }
+
+# onClick res/layout/main.xml #generated:120
+# onClick res/layout/search.xml #generated:13
+-keepclassmembers class * { *** menuonclick(...); }
+
+# onClick res/layout/main.xml #generated:128
+-keepclassmembers class * { *** searchonclick(...); }
+

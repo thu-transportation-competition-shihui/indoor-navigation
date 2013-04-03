@@ -15,8 +15,6 @@ public class MainActivity extends Activity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-		tdnav appState = (tdnav)this.getApplication();
-		appState.addActivity(this);
         setContentView(R.layout.main);	
     }
 	//Create menu
@@ -123,7 +121,6 @@ public class MainActivity extends Activity
 	}
 	public void onmenuquitclick()
 	{
-		tdnav appState = (tdnav)getApplicationContext();
-		appState.finishAll();
+		finish();
 	}
 }
